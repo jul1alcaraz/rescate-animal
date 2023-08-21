@@ -1,0 +1,393 @@
+@media (min-width:0px) and (max-width: 576px) {
+
+    .hoja{
+        margin: auto;
+        background: radial-gradient(#e68cb9, #f1da8cfd);
+        padding: 0px;
+        margin: 0px;}
+
+.encabezado {
+        background-color:#e6e58c;
+        font-family: 'DynaPuff', cursive;
+        font-size: x-large;
+        text-align: center;
+        max-width: 100%;
+        padding: 1%;}
+     
+     .menu{ 
+        background-color: rgb(245,165,90);
+        padding: 4%;
+        border-radius: 15px;
+        font-family: 'Lilita One', cursive;
+        font-size: xx-large;}
+     
+     .item { display: inline;
+     list-style: none;
+     padding-left: 4rem;
+     font-family: 'Lilita One', cursive;
+     font-size: 20px;
+     margin: 0%;}
+     
+     .item a { text-decoration: none;
+     color: aliceblue;
+     font-size: xx-large;}
+
+.globo1{
+    display: inline-block;
+    width: 100%;}
+
+    .titulo{
+        height: 129px;
+        background:rgb(255, 255, 177);
+        }
+
+        .h1{
+            padding-top: 3%;
+            margin-top: 1rem;
+            text-align: center;
+            font-size: xx-large;
+            font-family: 'DynaPuff', cursive;}
+
+    .parrafo {
+        padding-top: 3%;
+        margin-top: 0rem;
+        height: 129px;
+        text-align: center;
+        background:rgb(248, 186, 243);
+        font-family: 'Roboto', sans-serif;
+        font-size: xx-large; }
+ 
+.globo2 {
+    width: 100%;
+    display: flex;}
+    
+    .portada {
+        background-color: rgb(205, 248, 255);
+        padding: 1%;
+        float: right;
+        width: 20%; }
+
+        .bb{
+             width: 100%;}
+
+    .descripcion { 
+        background-color: rgb(213,186,238);
+        position: center;
+        float: left;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Lilita One', cursive;
+        font-size: xx-large;
+        padding-top: 150px;
+        width: 80%;}
+     
+.pie_de_pagina {
+        display: flex;
+        background-color: rgb(245,165,90);
+        margin-top: 1%;}
+     
+     .cierre {
+        font-family: 'Roboto', sans-serif;
+        font-size: xx-large; 
+         color: aliceblue;
+         text-align: center;
+         padding: 5%;
+         position: relative;
+         width: 70%;}     
+     
+     .imagen_de_cierre {
+        border-radius: 15px;}
+     .contenido_imagen {
+         position: center;
+         padding-top: 20px;
+         padding-bottom: 10px;
+         border-radius: 5000px;}
+    
+   
+/*VARIANTES PARA EL DOCUMENTO: PRESENTACION, buscar como centrar las img*/
+    .portada1 {
+        background-color: rgb(231, 117, 51);
+        padding: 1%;
+        width: 40%;
+        margin: auto;} 
+/*VARIANTES PARA EL DOCUMENTO: RESCATADOS*/
+
+    .menu1{ 
+        background-color: rosybrown;
+        padding: 4%;
+        border-radius: 15px;
+        font-family: 'Lilita One', cursive;
+        font-size: xx-large;}
+}
+
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .hoja{
+        margin: auto;
+        background: radial-gradient(#f1da8cfd, #e6e58c);
+        padding: 0px;
+        margin: 0px;}
+
+.encabezado {
+        background-color: #e68cb9;
+        font-family: 'DynaPuff', cursive;
+        font-size: x-large;
+        text-align: center;
+        max-width: 100%;
+        padding: 1%;}
+     
+     .menu{ 
+        background-color: rgb(245,165,90);
+        padding: 4%;
+        border-radius: 15px;
+        font-family: 'Lilita One', cursive;
+        font-size: xx-large;}
+     
+     .item { display: inline;
+     list-style: none;
+     padding-left: 4rem;
+     font-family: 'Lilita One', cursive;
+     font-size: 20px;
+     margin: 0%;}
+     
+     .item a { text-decoration: none;
+     color: aliceblue;
+     font-size: xx-large;}
+
+.globo1{
+    display: inline-block;
+    width: 100%;}
+
+    .titulo{
+        height: 129px;
+        background:rgb(213,186,238);
+        }
+
+        .h1{
+            padding-top: 3%;
+            margin-top: 1rem;
+            text-align: center;
+            font-size: xx-large;
+            font-family: 'DynaPuff', cursive;}
+
+    .parrafo{
+        padding-top: 3%;
+        margin-top: 0rem;
+        height: 129px;
+        text-align: center;
+        background: rgb(205, 248, 255);
+        font-family: 'Roboto', sans-serif;
+        font-size: xx-large; }
+ 
+.globo2 {
+    width: 100%;
+    display: flex;}
+    
+    .portada {
+        background-color: rgb(248, 186, 243);
+        padding: 1%;
+        float: right;
+        width: 20%; }
+         
+        .bb{
+             width: 100%;}
+    .descripcion { 
+        background-color: rgb(255, 255, 177);
+        position: center;
+        float: left;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Lilita One', cursive;
+        font-size: xx-large;
+        padding-top: 150px;
+        width: 80%;}
+     
+.pie_de_pagina {
+        display: flex;
+        background-color: rgb(245,165,90);
+        margin-top: 1%;}
+     
+     .cierre {
+        font-family: 'Roboto', sans-serif;
+        font-size: xx-large; 
+         color: aliceblue;
+         text-align: center;
+         padding: 5%;
+         position: relative;
+         width: 70%;}     
+     
+     .imagen_de_cierre {
+        border-radius: 15px;}
+     .contenido_imagen {
+         position: center;
+         padding-top: 20px;
+         padding-bottom: 10px;
+         border-radius: 5000px;
+     
+     }
+/*VARIANTES PARA EL DOCUMENTO: PRESENTACION, buscar como centrar las img*/
+    .portada1 {
+        background-color: rgb(231, 117, 51);
+        padding: 1%;
+        width: 40%;
+        margin: auto;} 
+        
+/*VARIANTES PARA EL DOCUMENTO: RESCATADOS*/
+
+    .menu1{ 
+    background-color: rosybrown;
+    padding: 4%;
+    border-radius: 15px;
+    font-family: 'Lilita One', cursive;
+    font-size: xx-large;}
+    }
+
+@media (min-width: 769px) and (max-width: 100000px)
+{
+.hoja{
+        margin: auto;
+        background: radial-gradient(#e68cb9, #e6e58c);
+        padding: 0px;
+        margin: 0px;}
+
+.encabezado {
+        background-color:#f1da8cfd;
+        font-family: 'DynaPuff', cursive;
+        font-size: x-large;
+        text-align: center;
+        max-width: 100%;
+        padding: 1%;}
+     
+     .menu{ 
+        background-color: rgb(245,165,90);
+        padding: 4%;
+        border-radius: 15px;
+        font-family: 'Lilita One', cursive;
+        font-size: xx-large;}
+     
+     .item { display: inline;
+            list-style: none;
+            padding-left: 4rem;
+            font-family: 'Lilita One', cursive;
+            font-size: 20px;
+            margin: 0%;}
+     
+        .item a { text-decoration: none;
+            color: aliceblue;
+            font-size: xx-large;}
+
+.globo1{
+    display: inline-block;
+    width: 100%;}
+
+    .titulo{
+        height: 129px;
+        background:rgb(205, 248, 255);
+        }
+
+        .h1{
+            padding-top: 3%;
+            margin-top: 1rem;
+            text-align: center;
+            font-size: xx-large;
+            font-family: 'DynaPuff', cursive;}
+
+    .parrafo {
+        padding-top: 3%;
+        margin-top: 0rem;
+        height: 129px;
+        text-align: center;
+        background: #d5baee;
+        font-family: 'Roboto', sans-serif;
+        font-size: xx-large; }
+ 
+.globo2 {
+    width: 100%;
+    display: flex;}
+    
+    .portada {
+        background-color: rgb(255, 255, 177);
+        padding: 1%;
+        float: right;
+        width: 20%; }
+         
+        .bb{
+             width: 100%;}
+    .descripcion { 
+        background-color: rgb(248, 186, 243);
+        position: center;
+        float: left;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Lilita One', cursive;
+        font-size: xx-large;
+        padding-top: 150px;
+        width: 80%;}
+     
+.pie_de_pagina {
+        display: flex;
+        background-color: rgb(245,165,90);
+        margin-top: 1%;}
+     
+     .cierre {
+        font-family: 'Roboto', sans-serif;
+        font-size: xx-large; 
+         color: aliceblue;
+         text-align: center;
+         padding: 5%;
+         position: relative;
+         width: 70%;}     
+     
+     .imagen_de_cierre {
+        border-radius: 15px;}
+     .contenido_imagen {
+         position: center;
+         padding-top: 20px;
+         padding-bottom: 10px;
+         border-radius: 5000px;
+     
+     }
+/*VARIANTES PARA EL DOCUMENTO: PRESENTACION, buscar como centrar las img*/
+    .portada1 {
+        background-color: rgb(231, 117, 51);
+        padding: 1%;
+        width: 40%;
+        margin: auto;} } 
+/*VARIANTES PARA EL DOCUMENTO: RESCATADOS*/
+
+.menu1{ 
+    background-color: rosybrown;
+    padding: 4%;
+    border-radius: 15px;
+    font-family: 'Lilita One', cursive;
+    font-size: xx-large;}
+/*FORMULARIO*/
+.input {
+    width: 100%;
+    align-content: center;
+    display:block;
+    margin: 0,5 rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+/*BOTONES*/
+.boton {
+    width: 30%;
+    height: 10%;
+    align-content: center;
+}
+.img_chica { 
+    background-color: rgb(140, 251, 172);
+    padding: 1%;
+    width: 10%;
+    margin: auto;}
+
+
+/* En rescatados ver lo cuando no cliqueas a nadie
+    else{
+        $Parrafo = "¡Cliquealos!";}
+
+    <p class="parrafo"> <?php if (isset ($Parrafo)) {echo $Parrafo;}?> </p>
+*/
+/* contraseña de web host: !R|7rh^EG}~yJJ?)*/
