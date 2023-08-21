@@ -24,7 +24,7 @@
         
         case "berta":
             $nombre = "Berta";
-            $descri = "Te presentamos a Berta: perrita que se porta mal, la quieren correr de la casa pero es muy linda asi que no la damos";
+            $descri = "Te presentamos a Berta: perrita que se porta mal, no la pueden tener y busca familia";
             $img = "./img/7671c53c-0440-4fe1-a763-fe97e346c706.jpg";
         break;
 
