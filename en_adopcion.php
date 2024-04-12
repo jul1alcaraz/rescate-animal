@@ -2,16 +2,19 @@
 
 <section class="globo1">
         <div class="titulo">
-            <h1 class="h1">¡Perritos en adopcion!</h1>
+            <h1 class="h1">¡Perritos en adopción!</h1>
         </div> 
+
+        <br/>
 
         <div>
             <p class="parrafo">Te presentamos los perritos que buscan hogar </p>
         </div>
+
     
     <nav>
         <ul class="menu1">
-        <li class="item"> <a href="en_adopcion.php?nom=berta"> Berta </a>
+        <li class="item"> <a href="en_adopcion.php?nom=berta"> Claudia </a>
         <li class="item"> <a href="en_adopcion.php?nom=tomi">Tomi</a>
         </ul>
     </nav>
@@ -23,8 +26,8 @@
     switch(($_GET["nom"])){
         
         case "berta":
-            $nombre = "Berta";
-            $descri = "Te presentamos a Berta: perrita que se porta mal, no la pueden tener y busca familia";
+            $nombre = "Claudia";
+            $descri = "De tamaño grande, guardiana y juguetona ";
             $img = "./img/7671c53c-0440-4fe1-a763-fe97e346c706.jpg";
         break;
 

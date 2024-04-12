@@ -1,10 +1,15 @@
 <?php include ("header.php")?>
 
+
+
+
 <body class="hoja">
 <div class="globo1">
     <h1 class="h1"> ¡Animate a adoptar!</h1>
-    <p class="parrafo"> Si estas dispuesto a cambiar tu vida con un/a compañer@ de vida, 
-        completa este formulario, especifica el animalito que te interesa y nos comunicaremos con vos.</p>
+    <p class="parrafo"> Si estás dispuesto a cambiar tu vida con un/a compañer@, <br/>
+
+        completa este formulario, especifica el animalito que te interesa <br/>
+        y nos comunicaremos con vos.</p>
 </div>
 
 <div>
@@ -13,8 +18,9 @@
         <input type="text". name= "Apellido". class="input". placeholder="Apellido">
         <input type="date". name= "Date". class="input". placeholder="Fecha de necimiento">
         <input type="text". name= "Localidad". class="input". placeholder="Lugar de residencia" >
-        <input type="number". name= "NumeroCelular". class="input" placeholder="Tu numero de celular">
-        <textarea name="sugerencias" id="" cols="30" rows="10". class="input". placeholder="¿Cumplis con los requisitos de adopcion? ¿Tenes algun incoveniente con estos? Comentanos"></textarea>
+        <input type="number". name= "NumeroCelular". class="input" placeholder="Tu número de celular">
+        <textarea name="sugerencias" id="" cols="30" rows="10". class="input". placeholder="¿Cumplís con los requisitos de adopción? ¿Tenés algún incoveniente con estos? Comentanos"></textarea>
+        <br/>
         <input type="submit" value="Enviar formulario" class="boton">
     </form>
 </div>
@@ -28,9 +34,17 @@ echo "<h1> Tu mensaje ha sido recibido con exito";
 </section>  
 
 <div>
-    <h1 class="encabezado"> Si queres comunicarte con nosotros por otro tema hacelo a traves de los siguientes medios: </h1>
-    <p class="parrafo">rescate.lr@gmail.com</p>
+    <h1 class="encabezado"> Si queres comunicarte con nosotros por otro tema hacelo a través de los siguientes medios: </h1>
+
 </div>
+
+<nav>
+    <ul class="h1">
+        <li class="item"> <a href=https://www.linkedin.com/in/jul1alcaraz/> <img class="icono" src="./images/linkedin_logo_icon_247835.ico" ></a></li>    
+        <li class="item"> <a href=https://github.com/jul1alcaraz> <img class="icono" src="./images/github_git_icon_145985.ico" ></a></li>
+        <li class="item"> <a href="mailto:lic.alcarazaballay2022@gmail.com"> <img class="icono" src="./images/mail_email_message_electronic_online_web_icon-icons.com_59986.ico" ></a></li>
+    </ul>
+</nav>
 
 <section class="globo2">
         <div class="descripcion">

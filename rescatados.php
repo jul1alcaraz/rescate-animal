@@ -5,15 +5,15 @@
     <div class="titulo"> 
         <h1 class= "h1" > CELEBRAMOS A LOS ADOPTADOS </h1> 
     </div>
-    <h1> Prueba con metodo Get </h1>
+  
     <nav> 
         <ul class="menu1">
             <li class="item"> <a href="rescatados.php?nom=mini_berta_renata">Mini, Berta y Renata</a> </li>
             <li class="item"> <a href="rescatados.php?nom=rosa"> Rosa </a> </li>  
-            <li class="item"><a href="rescatados.php?nom=roman"> Roman </a> </li>
+            <li class="item"><a href="rescatados.php?nom=roman"> Román </a> </li>
             <li class="item"><a href="rescatados.php?nom=burbuja"> Burbuja </a> </li>
             <li class="item"><a href="rescatados.php?nom=guacho"> Guacho </a> </li>       
-            <li class="item"><a href="rescatados.php?nom=fatima"> Fatima</a> </li>    
+            <li class="item"><a href="rescatados.php?nom=fatima"> Fátima</a> </li>    
             <li class="item"><a href="rescatados.php?nom=junior"> Junior</a> </li>
         </ul>
     </nav> 
@@ -44,7 +44,7 @@
 
         case "burbuja":
              $nombre = "Burbuja";
-             $descri = "Se fue a vivr al interior, apenas llego casi infarta su hermano pero ya se llevan bien";
+             $descri = "Se fue a vivir al interior, apenas llegó casi infarta su hermano pero ya se llevan bien";
              $img = "./img/IMG_7545.jpg";
         break;
 
@@ -56,13 +56,13 @@
 
         case "fatima":
             $nombre = "Fati";
-            $descri = "Descripcion Fati";
+            $descri = "Se autoadoptó, se va semanas pero siempre vuelve. Un alma libre y feliz.";
             $img = "./img/IMG_5336.jpg";
         break;
 
         case "junior":
             $nombre = "Junior";
-            $descri = "El sospechas";
+            $descri = "Nadie lo quería por que supuestamente era feo, pero a su mamá la conquistó con una mirada.";
             $img = "./img/IMG_1718.jpg";
         break;
     }
@@ -86,7 +86,7 @@ else{
 </section>
 
 <section>
-    <h1>pruba con java script </h1>
+   
     <a href="./img/IMG_2008.jpg" data-lightbox= "rescatados" data-title="Mini, Renata y Berta"> <img src="./img/IMG_2008.jpg" alt="Berta" class="img_chica"></a>
     <a href="./img/IMG_6227.jpg" data-lightbox= "rescatados" data-title="Rosa"> <img src="./img/IMG_6227.jpg" alt="Tomi" class="img_chica"></a>
     <a href="./img/IMG_5629.jpg" data-lightbox= "rescatados" data-title="Roman"> <img src="./img/IMG_5629.jpg" alt="Berta" class="img_chica"></a>
@@ -96,16 +96,7 @@ else{
     <a href="./img/IMG_1718.jpg" data-lightbox= "rescatados" data-title="Junior"> <img src="./img/IMG_1718.jpg" alt="Tomi" class="img_chica"></a>
 </section>
 
-<?php
 
- if (isset ($_GET["nom"])){
-    
-}
-else{
-    //$img="./img/7b086bf2d426e923c9c447f3797853a6.jpg";
-    echo "<p class=\"parrafo\"> Conocel@s en su nueva vida </p>";
-}
-?>
 
 <?php include ("footer.php") ?>
 
