@@ -11,11 +11,24 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v4
-    
+
+    - name: 🔑 Write DB config from secrets
+      run: |
+        cat > db-config.php <<'PHP'
+        <?php
+        define('DB_HOST', '${{ secrets.DB_HOST }}');
+        define('DB_USER', '${{ secrets.DB_USER }}');
+        define('DB_PASS', '${{ secrets.DB_PASS }}');
+        define('DB_NAME', '${{ secrets.DB_NAME }}');
+        PHP
+
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: ./htdocs/
+        server-dir: ${{ secrets.FTP_SERVER_DIR }}
+        exclude: |
+          **/.git*
+          **/.git*/**
